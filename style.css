@@ -1,0 +1,50 @@
+body {
+    /* background-color: blue; */
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#todoList {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.todo {
+    width: 50%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: yellow purple yellow purple;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 5px auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#todoText {
+    margin: 0;
+}
+
+#deleteBtn {
+    margin: 0;
+    cursor: pointer;
+}
+
+.completedTodo {
+    text-decoration: line-through;
+}
+
+.todoInput {
+    width: 100px;
+    margin: 0 auto;
+    border-width: 200px;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+}
+
+#inputButton {
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="30" style="font-size: 20px;"><text y="15">K</text></svg>'), auto;
+}
